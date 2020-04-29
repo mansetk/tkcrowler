@@ -1,7 +1,7 @@
 import pytest
 
 def f():
-    return 3
+    return 4
 
 def test_function():
-    assert f() == 3
+    assert f() == 4
