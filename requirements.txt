@@ -1,4 +1,6 @@
 ###### Requirements without Version Specifiers ######`
 scrapy
-
+prometheus_client
+flask
+werkzeug
 ###### Requirements with Version Specifiers ######`
