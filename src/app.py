@@ -1,14 +1,24 @@
-from prometheus_client import start_http_server, Summary
-import random
-import time
+#uwsgi --http localhost:8000 --wsgi-file count.py --callable app_dispatch
 
-REQUEST_TIME = Summary('request_processing_seconds', 'Time spent processing request')
+from func import f
+from flask import Flask
+from werkzeug.middleware.dispatcher import DispatcherMiddleware
+from werkzeug.serving import run_simple
+from prometheus_client import make_wsgi_app, Counter
 
-@REQUEST_TIME.time()
-def process_request(t):
-	time.sleep(t)
+c = Counter('my_counter', 'Description of access counter')
 
-if __name__ == '__main__':
-	start_http_server(8000)
-	while True:
-		process_request(random.random())
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+	return 'index'
+
+@app.before_request
+def before_request():
+	incval = f()
+	c.inc(incval)
+
+app_dispatch = DispatcherMiddleware(app, {
+	'/metrics': make_wsgi_app()
+})

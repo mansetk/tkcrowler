@@ -3,4 +3,5 @@ scrapy
 prometheus_client
 flask
 werkzeug
+uwsgi
 ###### Requirements with Version Specifiers ######`
