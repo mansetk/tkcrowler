@@ -1,5 +1,9 @@
 FROM python:3.7.3
 
-WORKDIR /app
-COPY ./src /app/src
-CMD ["python3", "/app/src/app.py"]
+ADD src /
+ADD requirements.txt /
+
+RUN yum install python3-dev -y
+RUN pip3 install -r requirements.txt
+
+ENTRYPOINT [ "python3", "src/
