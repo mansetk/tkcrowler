@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.2.2.2:1", "", "レジストリに登録したドメインをDomain Parkingサービスに登録する", "EARoot/EA1/EA2/EA2/EA2/EA81.htm", "180.png", "32", "0", "", "Use Case diagram0","{96A69463-8279-43b4-A537-41FDDCCFABA4}");
+tocTab[tocTab.length] = new Array("0.1.2.2.2:2", "", "レジストリに登録したドメインをDomain Parkingサービスに登録する", "EARoot/EA1/EA2/EA2/EA2/EA84.htm", "78284927-1_ビジネスユースケース.png", "E207", "0", "", "UseCase0","{A9E34127-EEC4-4f4c-AE4C-B28FBEC5990C}");

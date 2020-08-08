@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.2.2:1", "", "ビジネスユースケース図 一覧", "EARoot/EA1/EA2/EA2/EA71.htm", "188.png", "6", "0", "", "Custom diagram0","{B7C907F3-B59F-450f-961F-9B79C9FE06A6}");
+tocTab[tocTab.length] = new Array("0.1.2.2.1", "1", "ドメインをレジストリに登録する", "EARoot/EA1/EA2/EA2/EA1/EA78.htm", "4.png", "", "", "{383E3DAC-1B91-4105-80F8-48F4CAD152C2}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2.2", "1", "レジストリに登録したドメインをDomain Parkingサービスに登録する", "EARoot/EA1/EA2/EA2/EA2/EA83.htm", "4.png", "", "", "{EAB922BB-F469-4ba7-AC68-24CC3F44CE0C}", "Package");
