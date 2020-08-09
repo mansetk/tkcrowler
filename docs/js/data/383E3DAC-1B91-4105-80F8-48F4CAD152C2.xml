@@ -1,3 +1,2 @@
-tocTab[tocTab.length] = new Array("0.1.2.2.1:1", "", "ドメインをレジストリに登録する", "EARoot/EA1/EA2/EA2/EA1/EA76.htm", "180.png", "31", "0", "", "Use Case diagram0","{E1641970-399A-4f67-846D-58E4E51D3579}");
-tocTab[tocTab.length] = new Array("0.1.2.2.1:2", "", "レジストリ登録", "EARoot/EA1/EA2/EA2/EA1/EA79.htm", "78284927-1_ビジネスユースケース.png", "E205", "0", "", "UseCase0","{A8162AC5-B213-4328-8CC0-2392602D1240}");
-tocTab[tocTab.length] = new Array("0.1.2.2.1:3", "", "残予算算出", "EARoot/EA1/EA2/EA2/EA1/EA80.htm", "78284927-1_ビジネスユースケース.png", "E204", "0", "", "UseCase0","{B95BE0D2-3D65-40e9-BA7A-3AFC2A708759}");
+tocTab[tocTab.length] = new Array("0.1.2.2.1:1", "", "ドメインをレジストリに登録する", "EARoot/EA1/EA2/EA2/EA1/EA80.htm", "180.png", "31", "0", "", "Use Case diagram0","{E1641970-399A-4f67-846D-58E4E51D3579}");
+tocTab[tocTab.length] = new Array("0.1.2.2.1:2", "", "レジストリ登録", "EARoot/EA1/EA2/EA2/EA1/EA83.htm", "78284927-1_ビジネスユースケース.png", "E205", "0", "", "UseCase0","{A8162AC5-B213-4328-8CC0-2392602D1240}");

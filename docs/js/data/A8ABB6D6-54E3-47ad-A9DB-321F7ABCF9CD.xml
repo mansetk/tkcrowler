@@ -1,0 +1,16 @@
+tocTab[tocTab.length] = new Array("0.1.2.3.1:1", "", "ドメインの評価値と収入の対応関係を求める", "EARoot/EA1/EA2/EA3/EA1/EA154.htm", "181.png", "34", "0", "", "Activity diagram0","{5C665138-48B3-44c2-BB51-817203F43E83}");
+tocTab[tocTab.length] = new Array("0.1.2.3.1:2", "", ": 査定係", "EARoot/EA1/EA2/EA3/EA1/EA157.htm", "116.png", "E223", "0", "", "ActivityPartition0","{A811B23E-4205-48ac-88D0-F6F2A15778EF}");
+tocTab[tocTab.length] = new Array("0.1.2.3.1:3", "", ": 査定係", "EARoot/EA1/EA2/EA3/EA1/EA158.htm", "116.png", "E224", "0", "", "ActivityPartition0","{DC14F3F7-B88A-411a-90EE-932C72B42AFB}");
+tocTab[tocTab.length] = new Array("0.1.2.3.1:4", "", "GoDaddy", "EARoot/EA1/EA2/EA3/EA1/EA159.htm", "116.png", "E232", "0", "", "ActivityPartition0","{6B91D5CD-076A-45dc-A984-2A4B9E419E14}");
+tocTab[tocTab.length] = new Array("0.1.2.3.1:5", "", "moz", "EARoot/EA1/EA2/EA3/EA1/EA160.htm", "116.png", "E233", "0", "", "ActivityPartition0","{4953AABF-B341-46c0-8A76-59819108DA62}");
+tocTab[tocTab.length] = new Array("0.1.2.3.1:6", "", "sedo", "EARoot/EA1/EA2/EA3/EA1/EA161.htm", "116.png", "E225", "0", "", "ActivityPartition0","{6BDBE0E9-A5EC-4687-8000-A40ACFAB7168}");
+tocTab[tocTab.length] = new Array("0.1.2.3.1:7", "", "", "EARoot/EA1/EA2/EA3/EA1/EA162.htm", "68.png", "E238", "E223", "", "StateNode0","{4B683C36-C30E-4bde-BDF5-437F6EB9886C}");
+tocTab[tocTab.length] = new Array("0.1.2.3.1:8", "", "対応関係を参照する", "EARoot/EA1/EA2/EA3/EA1/EA163.htm", "7.png", "E243", "E223", "", "UseCase0","{6A7FECAE-513A-4777-862D-A9EA1F81C479}");
+tocTab[tocTab.length] = new Array("0.1.2.3.1:9", "", "登録した時のドメインの登録料を問い合わせる", "EARoot/EA1/EA2/EA3/EA1/EA164.htm", "104.png", "E235", "E223", "", "Action0","{7F165C9C-455C-49c5-8B94-C2F7AE0A95A3}");
+tocTab[tocTab.length] = new Array("0.1.2.3.1:10", "", "登録ドメインの収入を問い合わせる", "EARoot/EA1/EA2/EA3/EA1/EA165.htm", "104.png", "E234", "E223", "", "Action0","{6A1F142F-DB1F-4b43-AFAF-49B9B56E117E}");
+tocTab[tocTab.length] = new Array("0.1.2.3.1:11", "", "登録ドメインの評価値を問い合わせる", "EARoot/EA1/EA2/EA3/EA1/EA166.htm", "104.png", "E236", "E223", "", "Action0","{A645D091-60FA-4c75-82BE-369656108BDE}");
+tocTab[tocTab.length] = new Array("0.1.2.3.1:12", "", "評価値と収入の対応関係を算出する", "EARoot/EA1/EA2/EA3/EA1/EA167.htm", "104.png", "E237", "E223", "", "Action0","{E957898F-4283-49ea-8925-869A57187E77}");
+tocTab[tocTab.length] = new Array("0.1.2.3.1:13", "", "アクティビティ1", "EARoot/EA1/EA2/EA3/EA1/EA168.htm", "104.png", "E242", "E225", "", "Action0","{AA4AD577-28CA-4643-876E-5719DF3DB2DF}");
+tocTab[tocTab.length] = new Array("0.1.2.3.1:14", "", "収入を通知する", "EARoot/EA1/EA2/EA3/EA1/EA169.htm", "104.png", "E239", "E225", "", "Action0","{8D7F3BB3-7A5E-47b2-8B9A-D8CB511B6DBF}");
+tocTab[tocTab.length] = new Array("0.1.2.3.1:15", "", "登録料を通知する", "EARoot/EA1/EA2/EA3/EA1/EA170.htm", "104.png", "E240", "E232", "", "Action0","{8B0DD300-69C8-491c-98A0-CC1BA7902890}");
+tocTab[tocTab.length] = new Array("0.1.2.3.1:16", "", "評価値を通知する", "EARoot/EA1/EA2/EA3/EA1/EA171.htm", "104.png", "E241", "E233", "", "Action0","{B8BC93E2-4DEC-4682-A0DB-355400F1D3AD}");

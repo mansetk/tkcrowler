@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>登録済みドメインの一覧を提供する</title>
+<title>評価閾値を設定する</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("登録済みドメインの一覧を提供する", " : "))</script>  : Public  &lt;&lt;アクティビティ&gt;&gt; アクティビティ</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("評価閾値を設定する", " : "))</script>  : Public  &lt;&lt;ユースケース&gt;&gt; ユースケース</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">作成日:</td>
-			<td width="85%" class="ObjectDetailsValue">2020/06/30 21:47:46</td>
+			<td width="85%" class="ObjectDetailsValue">2020/08/08 20:22:07</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">更新日:</td>
-			<td class="ObjectDetailsValue">2020/06/30 21:48:00</td>
+			<td class="ObjectDetailsValue">2020/08/08 23:26:06</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,68 +87,19 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">GUID:</td>
-			<td class="ObjectDetailsValue">{291B824D-B70F-4078-9DA0-CFAED563F36C}</td>
+			<td class="ObjectDetailsValue">{29DF7FFB-8480-4d23-9DF8-650D05E63284}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">ダイアグラム:</td>
-			<td class="ObjectDetailsValue"><a href="EA89.htm">レジストリに登録したドメインをDomain Parkingサービスに登録する</a></td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">フロー To</li>
-			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">フロー From</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">追加属性</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">その他の接続 </li>
 		</ul>
-		<div class="ItemBody" id="FlowToTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="50%" class="TableHeading">要素</td>
-					<td width="50%" class="TableHeading">名前</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA127.htm">Domain Parkingに登録されていないドメインの登録要求を送る</a><br />
-						アクション «フロー» 
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow66" onclick="parent.toggleDiv('detailsDIVLinkFlow66', 'DetailsImageLinkFlow66')" />詳細:
-							<div id="detailsDIVLinkFlow66" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="ItemBody" id="FlowFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="50%" class="TableHeading">要素</td>
-					<td width="50%" class="TableHeading">名前</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA129.htm">レジストリ登録済みドメインの情報を問い合わせる</a><br />
-						アクション «フロー» 
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow67" onclick="parent.toggleDiv('detailsDIVLinkFlow67', 'DetailsImageLinkFlow67')" />詳細:
-							<div id="detailsDIVLinkFlow67" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-			</table>
-		</div>
 		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -161,53 +112,32 @@ function nameClassifier(name, separator)
 			</tr>
 
 			<tr>
-				<td width="30%" class="TableRow">isOrdered:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isLocallyReentrant:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isUnmarshall:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isReplaceAll:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isSynchronous:</td>
-				<td width="70%" class="TableRow">true</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isDestroyLinks:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isDestroyOwnedObjects:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isRemoveDuplicates:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isDirect:</td>
-				<td width="70%" class="TableRow">false</td>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
 			</tr>
 
 
 			</table>
-		</div>	</div>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">要素</td>
+					<td width="10%" class="TableHeading">種類</td>
+					<td width="10%" class="TableHeading">接続</td>
+					<td width="10%" class="TableHeading">方向</td>
+					<td width="40%" class="TableHeading">ノート</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA123.htm">«アクティビティ» 一定の価値を有するドメインを取得したドメイン情報から抽出する</a></td>
+					<td width="10%" class="TableRow" valign="top">アクティビティ</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
 <div class="pageFooter"></div>
  
 </body>

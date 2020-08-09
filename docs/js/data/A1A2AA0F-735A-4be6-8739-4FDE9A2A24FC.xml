@@ -1,3 +1,3 @@
 tocTab[tocTab.length] = new Array("0.1", "1", "ダイアグラム", "EARoot/EA1/EA6.htm", "4.png", "", "", "{E70611D7-5920-4c25-92A2-F44F055464D6}", "Package");
-tocTab[tocTab.length] = new Array("0.2", "1", "モデル要素", "EARoot/EA2/EA152.htm", "4.png", "", "", "{426536AE-2C48-4b77-B2CD-52254901D796}", "Package");
-tocTab[tocTab.length] = new Array("0.3", "1", "ごみ箱", "EARoot/EA3/EA176.htm", "4.png", "", "", "{349A91CD-4338-4ef7-BA11-7CB433CFE22E}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "1", "モデル要素", "EARoot/EA2/EA198.htm", "4.png", "", "", "{426536AE-2C48-4b77-B2CD-52254901D796}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "1", "ごみ箱", "EARoot/EA3/EA222.htm", "4.png", "", "", "{349A91CD-4338-4ef7-BA11-7CB433CFE22E}", "Package");
