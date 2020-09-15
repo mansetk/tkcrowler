@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>ドメイン収集係</title>
+<title>CI基盤</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("ドメイン収集係", " : "))</script>  : Public  &lt;&lt;アクター&gt;&gt; アクター</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("CI基盤", " : "))</script>  : Public  &lt;&lt;サービス&gt;&gt; サービス</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">作成日:</td>
-			<td width="85%" class="ObjectDetailsValue">2020/06/30 21:01:06</td>
+			<td width="85%" class="ObjectDetailsValue">2020/09/15 23:19:02</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">更新日:</td>
-			<td class="ObjectDetailsValue">2020/06/30 21:01:34</td>
+			<td class="ObjectDetailsValue">2020/09/15 23:19:18</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">GUID:</td>
-			<td class="ObjectDetailsValue">{432CA0DC-ABAF-40fb-B16A-894946F77D74}</td>
+			<td class="ObjectDetailsValue">{DDD95CE1-603D-4f96-BAB8-8C419ED7448D}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">ダイアグラム:</td>
-			<td class="ObjectDetailsValue"><a href="EA37.htm">ビジネスコンテキスト図</a>, <a href="../EA2/EA1/EA80.htm">ドメインをレジストリに登録する</a>, <a href="../EA2/EA2/EA84.htm">レジストリに登録したドメインをDomain Parkingサービスに登録する</a></td>
+			<td class="ObjectDetailsValue"><a href="EA56.htm">ビジネスコンテキスト図</a>, <a href="../EA2/EA3/EA92.htm">レビュー</a>, <a href="../EA2/EA4/EA98.htm">不具合修正</a>, <a href="../EA2/EA7/EA112.htm">成果物更新</a>, <a href="../EA2/EA6/EA108.htm">成果物新規作成</a>, <a href="../EA2/EA2/EA88.htm">プロジェクト環境構築</a></td>
 		</tr>
 	</table>
 	
@@ -111,11 +111,6 @@ function nameClassifier(name, separator)
 				<td width="70%" class="TableRow">True</td>
 			</tr>
 
-			<tr>
-				<td width="30%" class="TableRow">isFinalSpecialization:</td>
-				<td width="70%" class="TableRow">0</td>
-			</tr>
-
 
 			</table>
 		</div>		<div class="ItemBody" id="LinksTable">
@@ -128,38 +123,80 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">ノート</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA57.htm">«業務» ドメインをレジストリに登録する</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA67.htm">«業務» 不具合修正</a></td>
 					<td width="10%" class="TableRow" valign="top">業務</td>
 					<td width="10%" class="TableRow" valign="top">抽象化</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA62.htm">«業務» レジストリに登録したドメインをDomain Parkingサービスに登録する</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA7/EA115.htm">«ビジネスユースケース» 成果物更新</a></td>
+					<td width="10%" class="TableRow" valign="top">ビジネスユースケース</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA3/EA96.htm">«ビジネスユースケース» レビュー依頼送信</a></td>
+					<td width="10%" class="TableRow" valign="top">ビジネスユースケース</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA64.htm">«業務» プロジェクト環境構築</a></td>
+					<td width="10%" class="TableRow" valign="top">業務</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA66.htm">«業務» レビュー</a></td>
 					<td width="10%" class="TableRow" valign="top">業務</td>
 					<td width="10%" class="TableRow" valign="top">抽象化</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA61.htm">«業務» レジストリに登録したドメインをDomain Parkingサービスに登録する</a></td>
-					<td width="10%" class="TableRow" valign="top">業務</td>
-					<td width="10%" class="TableRow" valign="top">抽象化</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA2/EA87.htm">«ビジネスユースケース» レジストリに登録したドメインをDomain Parkingサービスに登録する</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA3/EA97.htm">«ビジネスユースケース» レビュー実施</a></td>
 					<td width="10%" class="TableRow" valign="top">ビジネスユースケース</td>
 					<td width="10%" class="TableRow" valign="top">抽象化</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA1/EA83.htm">«ビジネスユースケース» レジストリ登録</a></td>
-					<td width="10%" class="TableRow" valign="top">ビジネスユースケース</td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA69.htm">«業務» 成果物新規作成</a></td>
+					<td width="10%" class="TableRow" valign="top">業務</td>
 					<td width="10%" class="TableRow" valign="top">抽象化</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA4/EA101.htm">«ビジネスユースケース» 不具合修正</a></td>
+					<td width="10%" class="TableRow" valign="top">ビジネスユースケース</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA70.htm">«業務» 成果物更新</a></td>
+					<td width="10%" class="TableRow" valign="top">業務</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA6/EA111.htm">«ビジネスユースケース» 成果物新規作成</a></td>
+					<td width="10%" class="TableRow" valign="top">ビジネスユースケース</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA2/EA91.htm">«ビジネスユースケース» プロジェクト環境構築</a></td>
+					<td width="10%" class="TableRow" valign="top">ビジネスユースケース</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 

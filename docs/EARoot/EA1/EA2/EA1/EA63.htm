@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>予算管理</title>
+<title>チケット管理システム</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("予算管理", " : "))</script>  : Public  &lt;&lt;業務&gt;&gt; 業務</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("チケット管理システム", " : "))</script>  : Public  &lt;&lt;サービス&gt;&gt; サービス</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">作成日:</td>
-			<td width="85%" class="ObjectDetailsValue">2020/06/30 20:33:35</td>
+			<td width="85%" class="ObjectDetailsValue">2020/09/15 23:19:21</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">更新日:</td>
-			<td class="ObjectDetailsValue">2020/06/30 20:34:05</td>
+			<td class="ObjectDetailsValue">2020/09/15 23:19:33</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">GUID:</td>
-			<td class="ObjectDetailsValue">{03B14BB5-63E6-476d-9503-EF55562E9826}</td>
+			<td class="ObjectDetailsValue">{F68EE42D-0AE5-4fff-87FD-52E2365B7A41}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">ダイアグラム:</td>
-			<td class="ObjectDetailsValue"></td>
+			<td class="ObjectDetailsValue"><a href="EA56.htm">ビジネスコンテキスト図</a>, <a href="../EA2/EA1/EA83.htm">タスク管理</a>, <a href="../EA2/EA4/EA98.htm">不具合修正</a>, <a href="../EA2/EA7/EA112.htm">成果物更新</a>, <a href="../EA2/EA6/EA108.htm">成果物新規作成</a>, <a href="../EA2/EA5/EA102.htm">報連相</a>, <a href="../EA2/EA2/EA88.htm">プロジェクト環境構築</a></td>
 		</tr>
 	</table>
 	
@@ -111,16 +111,6 @@ function nameClassifier(name, separator)
 				<td width="70%" class="TableRow">True</td>
 			</tr>
 
-			<tr>
-				<td width="30%" class="TableRow">isReadOnly:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isFinalSpecialization:</td>
-				<td width="70%" class="TableRow">0</td>
-			</tr>
-
 
 			</table>
 		</div>		<div class="ItemBody" id="LinksTable">
@@ -133,17 +123,115 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">ノート</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA42.htm">«サービス» GoDaddy</a></td>
-					<td width="10%" class="TableRow" valign="top">サービス</td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA7/EA115.htm">«ビジネスユースケース» 成果物更新</a></td>
+					<td width="10%" class="TableRow" valign="top">ビジネスユースケース</td>
 					<td width="10%" class="TableRow" valign="top">抽象化</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA49.htm">«サービス» Sedo</a></td>
-					<td width="10%" class="TableRow" valign="top">サービス</td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA5/EA105.htm">«ビジネスユースケース» 報告</a></td>
+					<td width="10%" class="TableRow" valign="top">ビジネスユースケース</td>
 					<td width="10%" class="TableRow" valign="top">抽象化</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA69.htm">«業務» 成果物新規作成</a></td>
+					<td width="10%" class="TableRow" valign="top">業務</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA68.htm">«業務» 報連相</a></td>
+					<td width="10%" class="TableRow" valign="top">業務</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA2/EA91.htm">«ビジネスユースケース» プロジェクト環境構築</a></td>
+					<td width="10%" class="TableRow" valign="top">ビジネスユースケース</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA64.htm">«業務» プロジェクト環境構築</a></td>
+					<td width="10%" class="TableRow" valign="top">業務</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA62.htm">«業務» タスク管理</a></td>
+					<td width="10%" class="TableRow" valign="top">業務</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA4/EA101.htm">«ビジネスユースケース» 不具合修正</a></td>
+					<td width="10%" class="TableRow" valign="top">ビジネスユースケース</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA70.htm">«業務» 成果物更新</a></td>
+					<td width="10%" class="TableRow" valign="top">業務</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA1/EA87.htm">«ビジネスユースケース» タスク登録</a></td>
+					<td width="10%" class="TableRow" valign="top">ビジネスユースケース</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA6/EA111.htm">«ビジネスユースケース» 成果物新規作成</a></td>
+					<td width="10%" class="TableRow" valign="top">ビジネスユースケース</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA5/EA107.htm">«ビジネスユースケース» 議論</a></td>
+					<td width="10%" class="TableRow" valign="top">ビジネスユースケース</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA66.htm">«業務» レビュー</a></td>
+					<td width="10%" class="TableRow" valign="top">業務</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA1/EA86.htm">«ビジネスユースケース» タスク内容参照</a></td>
+					<td width="10%" class="TableRow" valign="top">ビジネスユースケース</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA5/EA106.htm">«ビジネスユースケース» 報告事項参照</a></td>
+					<td width="10%" class="TableRow" valign="top">ビジネスユースケース</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA67.htm">«業務» 不具合修正</a></td>
+					<td width="10%" class="TableRow" valign="top">業務</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 

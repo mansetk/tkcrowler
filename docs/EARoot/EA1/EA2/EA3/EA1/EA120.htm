@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>不具合修正</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA121.png" usemap="#EA121" border="0" />
+
+<MAP NAME="EA121">
+<area shape="rect" coords="612,111,712,188" href="EA126.htm" target="_self">
+<area shape="rect" coords="378,101,505,198" href="EA127.htm" target="_self">
+<area shape="rect" coords="150,743,170,763" href="EA124.htm" target="_self">
+<area shape="rect" coords="61,623,260,686" href="EA128.htm" target="_self">
+<area shape="rect" coords="118,547,194,581" href="EA132.htm" target="_self">
+<area shape="rect" coords="106,447,206,497" href="EA131.htm" target="_self">
+<area shape="rect" coords="106,360,206,410" href="EA134.htm" target="_self">
+<area shape="rect" coords="106,260,206,310" href="EA133.htm" target="_self">
+<area shape="rect" coords="24,127,289,190" href="EA130.htm" target="_self">
+<area shape="rect" coords="143,46,163,66" href="EA129.htm" target="_self">
+<area shape="rect" coords="10,10,310,781" href="EA125.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">不具合修正 : 業務フロー図</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">作成日:</td>
+			<td width="85%" class="ObjectDetailsValue">2020/09/15 23:41:44</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">更新日:</td>
+			<td width="85%" class="ObjectDetailsValue">2020/09/16 0:05:15</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />プロジェクト:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">作者:</td>
+			<td width="85%" class="ObjectDetailsValue">user</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">バージョン:</td>
+			<td width="85%" class="ObjectDetailsValue">1</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />追加情報:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">GUID:</td>
+			<td width="85%" class="ObjectDetailsValue">{870FD39C-A09F-4c62-84E6-0B937C067076}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>
