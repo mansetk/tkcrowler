@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>システムがEWSでtpの一覧を開発者に提示する</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("システムがEWSでtpの一覧を開発者に提示する", " : "))</script>  : Public  &lt;&lt;ユースケース&gt;&gt; ユースケース</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">作成日:</td>
+			<td width="85%" class="ObjectDetailsValue">2020/09/16 14:19:35</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">更新日:</td>
+			<td class="ObjectDetailsValue">2020/09/17 22:11:58</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />プロジェクト:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">作者:</td>
+			<td class="ObjectDetailsValue">user</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">バージョン:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">フェーズ:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">状態:</td>
+			<td class="ObjectDetailsValue">設計中</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">複雑度:</td>
+			<td class="ObjectDetailsValue">簡単</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">難易度:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">優先度:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">多重度:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />追加情報:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">GUID:</td>
+			<td class="ObjectDetailsValue">{273132B6-92B9-4c36-A6B5-A37EAABD8D72}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">ダイアグラム:</td>
+			<td class="ObjectDetailsValue"><a href="EA186.htm">不具合修正</a>, <a href="../../../EA3/EA1/EA5/EA343.htm">tp一覧参照</a>, <a href="../../../../../EA4/EA9/EA728.htm">開発者がtp一覧をEWSの標準出力に出力する</a></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">シナリオ </li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">追加属性</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">その他の接続 </li>
+		</ul>
+		<div class="ItemBody" id="ScenarioTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="90%" class="TableHeading">シナリオ</td>
+					<td width="10%" class="TableHeading">種類</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">開発者がtp一覧をEWSの標準出力に出力する</td>
+					<td width="10%" class="TableRow">基本</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario50" onclick="parent.toggleDiv('detailsDIVScenario50','DetailsImageScenario50')" />詳細:
+							<div id="detailsDIVScenario50" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;&#38283;&#30330;&#32773;&#12364;EWS&#12391;&#12471;&#12473;&#12486;&#12512;&#12395;tp&#19968;&#35239;&#12434;&#27161;&#28310;&#20986;&#21147;&#12395;&#20986;&#21147;&#12377;&#12427;&#12424;&#12358;&#12395;&#35201;&#27714;&#12377;&#12427;&lt;/li&gt;&lt;li&gt;&#12471;&#12473;&#12486;&#12512;&#12364;EWS&#12391;tp&#19968;&#35239;&#12434;&#27161;&#28310;&#20986;&#21147;&#12395;&#20986;&#21147;&#12377;&#12427;&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">開発者がEWSでtp一覧を選択する</td>
+					<td width="10%" class="TableRow">代替</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario51" onclick="parent.toggleDiv('detailsDIVScenario51','DetailsImageScenario51')" />詳細:
+							<div id="detailsDIVScenario51" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;&#38283;&#30330;&#32773;&#12364;EWS&#12391;&#12471;&#12473;&#12486;&#12512;&#12395;tp&#12398;&#19968;&#35239;&#12434;&#35201;&#27714;&#12377;&#12427;&lt;/li&gt;&lt;li&gt;&#12471;&#12473;&#12486;&#12512;&#12364;EWS&#12391;tp&#12398;&#19968;&#35239;&#65288;&#36984;&#25246;&#30011;&#38754;&#65289;&#12434;&#38283;&#30330;&#32773;&#12395;&#25552;&#31034;&#12377;&#12427;&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">tpが存在しなかった場合</td>
+					<td width="10%" class="TableRow">例外</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario52" onclick="parent.toggleDiv('detailsDIVScenario52','DetailsImageScenario52')" />詳細:
+							<div id="detailsDIVScenario52" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;&#38283;&#30330;&#32773;&#12364;EWS&#12391;tp&#12398;&#19968;&#35239;&#12434;&#35201;&#27714;&#12377;&#12427;&lt;/li&gt;&lt;li&gt;&#12471;&#12473;&#12486;&#12512;&#12364;EWS&#12391;&#12300;tp&#12364;&#12414;&#12384;&#30331;&#37682;&#12373;&#12428;&#12390;&#12356;&#12414;&#12379;&#12435;&#12301;&#12392;&#34920;&#31034;&#12377;&#12427;&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">プロパティ</td>
+					<td width="70%" class="TableHeading">値</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">_HideUmlLinks:</td>
+				<td width="70%" class="TableRow">True</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">要素</td>
+					<td width="10%" class="TableHeading">種類</td>
+					<td width="10%" class="TableHeading">接続</td>
+					<td width="10%" class="TableHeading">方向</td>
+					<td width="40%" class="TableHeading">ノート</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA210.htm">«アクティビティ» EWSでテストパターンを実行し、実行結果を得る</a></td>
+					<td width="10%" class="TableRow" valign="top">アクティビティ</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA212.htm">«アクティビティ» EWSでバグ再現テストベンチ作成</a></td>
+					<td width="10%" class="TableRow" valign="top">アクティビティ</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../EA3/EA1/EA5/EA351.htm">«イベント» tp一覧要求（from　開発者）</a></td>
+					<td width="10%" class="TableRow" valign="top">イベント</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../EA3/EA1/EA5/EA352.htm">«アクター» 開発者</a></td>
+					<td width="10%" class="TableRow" valign="top">アクター</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../EA3/EA1/EA5/EA348.htm">«情報» EWS</a></td>
+					<td width="10%" class="TableRow" valign="top">情報</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../EA3/EA1/EA5/EA350.htm">«機能» tp一覧をEWSで表示する</a></td>
+					<td width="10%" class="TableRow" valign="top">機能</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../EA3/EA1/EA5/EA349.htm">«情報» tp</a></td>
+					<td width="10%" class="TableRow" valign="top">情報</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../EA3/EA1/EA5/EA346.htm">«説明» </a></td>
+					<td width="10%" class="TableRow" valign="top">ノート</td>
+					<td width="10%" class="TableRow" valign="top">抽象化</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

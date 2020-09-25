@@ -1,2 +1,3 @@
-tocTab[tocTab.length] = new Array("0.1.2.2.6:1", "", "成果物新規作成", "EARoot/EA1/EA2/EA2/EA6/EA108.htm", "180.png", "17", "0", "", "Use Case diagram0","{0DFDF244-DBB1-40ef-B4CA-EA33F7B1F5FC}");
-tocTab[tocTab.length] = new Array("0.1.2.2.6:2", "", "成果物新規作成", "EARoot/EA1/EA2/EA2/EA6/EA111.htm", "78284927-1_ビジネスユースケース.png", "E77", "0", "", "UseCase0","{4AAE38DA-340F-44ee-919E-803D074DE2BE}");
+tocTab[tocTab.length] = new Array("0.1.1.2.2.6:1", "", "成果物新規作成", "EARoot/EA1/EA1/EA2/EA2/EA6/EA112.htm", "180.png", "17", "0", "", "Use Case diagram0","{0DFDF244-DBB1-40ef-B4CA-EA33F7B1F5FC}");
+tocTab[tocTab.length] = new Array("0.1.1.2.2.6:2", "", "リーダー", "EARoot/EA1/EA1/EA2/EA2/EA6/EA115.htm", "78284927-1_アクター.png", "E186", "0", "", "Actor0","{BD7C667E-703B-4e5c-B9FE-1CD6B8290E6D}");
+tocTab[tocTab.length] = new Array("0.1.1.2.2.6:3", "", "成果物新規作成", "EARoot/EA1/EA1/EA2/EA2/EA6/EA116.htm", "78284927-1_ビジネスユースケース.png", "E77", "0", "", "UseCase0","{4AAE38DA-340F-44ee-919E-803D074DE2BE}");

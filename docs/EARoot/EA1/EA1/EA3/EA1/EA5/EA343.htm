@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>tp一覧参照</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA344.png" usemap="#EA344" border="0" />
+
+<MAP NAME="EA344">
+<area shape="rect" coords="615,171,730,226" href="EA346.htm" target="_self">
+<area shape="rect" coords="211,452,243,484" href="EA350.htm" target="_self">
+<area shape="rect" coords="50,407,82,439" href="EA351.htm" target="_self">
+<area shape="rect" coords="64,65,114,105" href="EA352.htm" target="_self">
+<area shape="rect" coords="376,35,408,67" href="EA348.htm" target="_self">
+<area shape="rect" coords="226,10,258,42" href="EA349.htm" target="_self">
+<area shape="rect" coords="305,244,395,314" href="../../../EA2/EA3/EA5/EA196.htm" target="_self">
+<area shape="rect" coords="10,158,110,208" href="../../../EA2/EA3/EA5/EA212.htm" target="_self">
+<area shape="rect" coords="10,245,110,308" href="../../../EA2/EA3/EA5/EA210.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">tp一覧参照 : ユースケース複合図</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">作成日:</td>
+			<td width="85%" class="ObjectDetailsValue">2020/09/17 9:19:03</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">更新日:</td>
+			<td width="85%" class="ObjectDetailsValue">2020/09/18 12:54:58</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />プロジェクト:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">作者:</td>
+			<td width="85%" class="ObjectDetailsValue">user</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">バージョン:</td>
+			<td width="85%" class="ObjectDetailsValue">1</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />追加情報:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">GUID:</td>
+			<td width="85%" class="ObjectDetailsValue">{5A80B281-D860-442f-8C57-B7784DD9F5FC}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

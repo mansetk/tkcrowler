@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.4.1", "1", "EWSとCI基盤を連携させる", "EARoot/EA4/EA1/EA613.htm", "4.png", "", "", "{06AE8BDC-884A-458d-B2D9-9CE688C3DD51}", "Package");
+tocTab[tocTab.length] = new Array("0.4.2", "1", "EWSとチケット管理システムを連携させる", "EARoot/EA4/EA2/EA625.htm", "4.png", "", "", "{B4146047-D409-4f6e-A726-C20E2D580ECC}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3", "1", "システムがEWSとバージョン管理システムにタスク名と対応したブランチを切る", "EARoot/EA4/EA3/EA634.htm", "4.png", "", "", "{092415D8-AC29-48d3-A294-1041F38E46F7}", "Package");
+tocTab[tocTab.length] = new Array("0.4.4", "1", "開発者がEWSでtpの実行結果を参照する", "EARoot/EA4/EA4/EA657.htm", "4.png", "", "", "{1C5939BA-D7F2-43de-986E-E364DE1816B7}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5", "1", "開発者がEWSでtpをシステムに追加する", "EARoot/EA4/EA5/EA665.htm", "4.png", "", "", "{F5F26FD6-AFA9-46f4-BC1A-BF70F0992A11}", "Package");
+tocTab[tocTab.length] = new Array("0.4.6", "1", "開発者がEWSでtpを実行し、実行結果を得る", "EARoot/EA4/EA6/EA676.htm", "4.png", "", "", "{26C9291B-A8FC-4a68-8829-BEDA7B025B90}", "Package");
+tocTab[tocTab.length] = new Array("0.4.7", "1", "開発者がEWSでレビュー依頼をリーダに送る", "EARoot/EA4/EA7/EA697.htm", "4.png", "", "", "{3CDAC034-2B93-412d-97E3-939856711296}", "Package");
+tocTab[tocTab.length] = new Array("0.4.8", "1", "開発者がEWSで議論対象の成果物をリーダおよびほかの開発者に送る", "EARoot/EA4/EA8/EA716.htm", "4.png", "", "", "{01AE9B9D-9930-4da6-80EB-E390EA3914B0}", "Package");
+tocTab[tocTab.length] = new Array("0.4.9", "1", "開発者がtp一覧をEWSの標準出力に出力する", "EARoot/EA4/EA9/EA730.htm", "4.png", "", "", "{99D7CF23-7C26-4ea7-AD51-527EABA9152D}", "Package");

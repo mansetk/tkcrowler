@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>開発者がEWSでtpを実行し、実行結果を得る</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA675.png" usemap="#EA675" border="0" />
+
+<MAP NAME="EA675">
+<area shape="rect" coords="462,827,512,889" href="EA680.htm" target="_self">
+<area shape="rect" coords="342,84,392,146" href="EA681.htm" target="_self">
+<area shape="rect" coords="342,174,392,251" href="EA683.htm" target="_self">
+<area shape="rect" coords="188,181,238,243" href="EA687.htm" target="_self">
+<area shape="rect" coords="332,305,382,367" href="EA677.htm" target="_self">
+<area shape="rect" coords="188,317,238,379" href="EA685.htm" target="_self">
+<area shape="rect" coords="316,655,366,732" href="EA689.htm" target="_self">
+<area shape="rect" coords="229,555,279,632" href="EA690.htm" target="_self">
+<area shape="rect" coords="260,1044,310,1106" href="EA691.htm" target="_self">
+<area shape="rect" coords="260,943,310,1005" href="EA692.htm" target="_self">
+<area shape="rect" coords="454,957,504,1019" href="EA682.htm" target="_self">
+<area shape="rect" coords="260,827,310,889" href="EA688.htm" target="_self">
+<area shape="rect" coords="179,683,229,745" href="EA693.htm" target="_self">
+<area shape="rect" coords="462,592,512,654" href="EA678.htm" target="_self">
+<area shape="rect" coords="188,406,238,468" href="EA684.htm" target="_self">
+<area shape="rect" coords="45,578,90,668" href="EA694.htm" target="_self">
+<area shape="rect" coords="80,10,170,80" href="../../EA1/EA1/EA3/EA1/EA4/EA319.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">開発者がEWSでtpを実行し、実行結果を得る : ロバストネス図</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">作成日:</td>
+			<td width="85%" class="ObjectDetailsValue">2020/09/18 22:09:01</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">更新日:</td>
+			<td width="85%" class="ObjectDetailsValue">2020/09/19 18:39:07</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />プロジェクト:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">作者:</td>
+			<td width="85%" class="ObjectDetailsValue">user</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">バージョン:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />追加情報:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">GUID:</td>
+			<td width="85%" class="ObjectDetailsValue">{AC03D4CB-66DA-4a66-9B48-4E9984BFB2C5}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

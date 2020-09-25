@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>開発者がEWSで規定ディレクトリ構成および予約リソースを構築する</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA424.png" usemap="#EA424" border="0" />
+
+<MAP NAME="EA424">
+<area shape="rect" coords="551,376,583,408" href="EA427.htm" target="_self">
+<area shape="rect" coords="509,195,541,227" href="EA430.htm" target="_self">
+<area shape="rect" coords="564,292,596,324" href="EA426.htm" target="_self">
+<area shape="rect" coords="45,382,95,422" href="EA434.htm" target="_self">
+<area shape="rect" coords="452,442,484,474" href="EA429.htm" target="_self">
+<area shape="rect" coords="330,455,362,487" href="EA428.htm" target="_self">
+<area shape="rect" coords="147,474,179,506" href="EA432.htm" target="_self">
+<area shape="rect" coords="239,152,271,184" href="EA433.htm" target="_self">
+<area shape="rect" coords="239,10,271,42" href="EA431.htm" target="_self">
+<area shape="rect" coords="20,28,120,78" href="../../../EA2/EA3/EA3/EA164.htm" target="_self">
+<area shape="rect" coords="362,306,452,376" href="../../../EA2/EA3/EA3/EA160.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">開発者がEWSで規定ディレクトリ構成および予約リソースを構築する : ユースケース複合図</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">作成日:</td>
+			<td width="85%" class="ObjectDetailsValue">2020/09/17 23:17:24</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">更新日:</td>
+			<td width="85%" class="ObjectDetailsValue">2020/09/17 23:24:37</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />プロジェクト:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">作者:</td>
+			<td width="85%" class="ObjectDetailsValue">user</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">バージョン:</td>
+			<td width="85%" class="ObjectDetailsValue">1</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />追加情報:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">GUID:</td>
+			<td width="85%" class="ObjectDetailsValue">{E1CD7068-E033-4727-B886-741D20C7DAE1}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

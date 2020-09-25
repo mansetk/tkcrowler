@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>不具合修正</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA187.png" usemap="#EA187" border="0" />
+
+<MAP NAME="EA187">
+<area shape="rect" coords="401,608,491,678" href="../../../EA3/EA1/EA17/EA435.htm" target="_self">
+<area shape="rect" coords="401,686,491,756" href="../../../EA3/EA1/EA9/EA393.htm" target="_self">
+<area shape="rect" coords="396,233,486,303" href="../../../EA3/EA1/EA8/EA372.htm" target="_self">
+<area shape="rect" coords="581,446,671,516" href="EA200.htm" target="_self">
+<area shape="rect" coords="389,939,479,1009" href="../../../EA3/EA1/EA15/EA420.htm" target="_self">
+<area shape="rect" coords="560,816,650,886" href="EA193.htm" target="_self">
+<area shape="rect" coords="389,823,479,893" href="../../../EA3/EA1/EA4/EA319.htm" target="_self">
+<area shape="rect" coords="401,530,491,600" href="../../../EA3/EA1/EA6/EA353.htm" target="_self">
+<area shape="rect" coords="401,446,491,516" href="../../../EA3/EA1/EA5/EA343.htm" target="_self">
+<area shape="rect" coords="401,345,491,415" href="../../../EA3/EA1/EA7/EA362.htm" target="_self">
+<area shape="rect" coords="150,743,170,763" href="EA191.htm" target="_self">
+<area shape="rect" coords="61,623,260,686" href="EA199.htm" target="_self">
+<area shape="rect" coords="118,547,194,581" href="EA214.htm" target="_self">
+<area shape="rect" coords="106,447,206,510" href="EA210.htm" target="_self">
+<area shape="rect" coords="106,360,206,410" href="EA212.htm" target="_self">
+<area shape="rect" coords="106,260,206,310" href="EA211.htm" target="_self">
+<area shape="rect" coords="24,127,289,190" href="EA213.htm" target="_self">
+<area shape="rect" coords="143,46,163,66" href="EA209.htm" target="_self">
+<area shape="rect" coords="10,10,310,781" href="EA190.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">不具合修正 : 業務フロー図</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">作成日:</td>
+			<td width="85%" class="ObjectDetailsValue">2020/09/15 23:41:44</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">更新日:</td>
+			<td width="85%" class="ObjectDetailsValue">2020/09/17 23:09:55</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />プロジェクト:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">作者:</td>
+			<td width="85%" class="ObjectDetailsValue">user</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">バージョン:</td>
+			<td width="85%" class="ObjectDetailsValue">1</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />追加情報:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">GUID:</td>
+			<td width="85%" class="ObjectDetailsValue">{870FD39C-A09F-4c62-84E6-0B937C067076}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

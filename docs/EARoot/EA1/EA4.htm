@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>全ダイアグラム一覧</title>
+<title>ごみ箱</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -31,53 +31,71 @@ function nameClassifier(name, separator)
 </script>
 </head>
 <body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
 <div class="PageBody">
-	
-<img src="EA5.png" usemap="#EA5" border="0" />
-
-<MAP NAME="EA5">
-<area shape="rect" coords="25,55,185,170" href="./EA1/EA1/EA25.htm" target="_self">
-<area shape="rect" coords="225,55,385,170" href="./EA1/EA2/EA33.htm" target="_self">
-<area shape="rect" coords="425,55,585,170" href="./EA2/EA1/EA37.htm" target="_self">
-<area shape="rect" coords="1225,55,1385,170" href="./EA2/EA5/EA175.htm" target="_self">
-<area shape="rect" coords="1625,55,1785,170" href="./EA4/EA1/EA183.htm" target="_self">
-<area shape="rect" coords="625,55,785,170" href="EA7.htm" target="_self">
-<area shape="rect" coords="625,195,785,310" href="EA8.htm" target="_self">
-</MAP>
-
-	<div class="ObjectTitle">全ダイアグラム一覧 : カスタム図</div>
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("ごみ箱", " : "))</script>  : Public   パッケージ</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">作成日:</td>
-			<td width="85%" class="ObjectDetailsValue">2020/06/23 21:49:51</td>
+			<td width="85%" class="ObjectDetailsValue">2020/09/15 11:22:18</td>
 		</tr>
 		<tr>
-			<td width="15%" class="ObjectDetailsTopic">更新日:</td>
-			<td width="85%" class="ObjectDetailsValue">2020/06/23 22:38:40</td>
+			<td class="ObjectDetailsTopic">更新日:</td>
+			<td class="ObjectDetailsValue">2020/09/15 11:22:18</td>
 		</tr>
-		<tr style="padding-top: 10px;">
-			<td width="15%" class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />プロジェクト:</td>
-			<td width="85%" class="ObjectDetailsValue"></td>			
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />プロジェクト:</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr id="proj00" style="display: none;">
-			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">作者:</td>
-			<td width="85%" class="ObjectDetailsValue">user</td>
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">作者:</td>
+			<td class="ObjectDetailsValue">user</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
-			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">バージョン:</td>
-			<td width="85%" class="ObjectDetailsValue">1</td>
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">バージョン:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">フェーズ:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">状態:</td>
+			<td class="ObjectDetailsValue">設計中</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">複雑度:</td>
+			<td class="ObjectDetailsValue">簡単</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">難易度:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">優先度:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">多重度:</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr>
-			<td width="15%" class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />追加情報:</td>
-			<td width="85%" class="ObjectDetailsValue"></td>			
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />追加情報:</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr id="adv00" style="display: none;">
-			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">GUID:</td>
-			<td width="85%" class="ObjectDetailsValue">{0269E728-5403-4696-BA3F-9C8C061CF836}</td>
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">GUID:</td>
+			<td class="ObjectDetailsValue">{D0A408E2-3A78-4153-A1D7-5FBDF6F1FF03}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">ダイアグラム:</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 	</table>
 	
-</div>
+<div class="pageFooter"></div>
  
 </body>
 </html>
